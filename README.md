@@ -118,10 +118,10 @@ Mainly performed using Matplotlib and Seaborn library and the following graph an
 Performed univariate analysis and made following conclusions:
 ```
  1.) Agent no. 9 has made most no. of bookings.
- 2.) Most demanded room type is A, but better adr generating rooms H, G and C. Hotels should increase the no. of room types A and H to maximise revenue.
- 3.) Most popular meal type is BB(Bed and Breakfast).
- 4.) Around 60% bookings are for City hotel and 40% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel.
- 5.) Guests use different channels for making bookings out of which most preferred way is TA/TO.
+ 2.) Most demanded room type is A and D, but better adr generating rooms H and G. Hotels should increase the no. of room types A and H to maximise revenue.
+ 3.) Most popular meal type is BB(Breakfast).
+ 4.) Around 61% bookings are for City hotel and 39% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel.
+ 5.) best market segment for bookings is Online TA.
  6.) July- August are the most busier and profitable months for both of hotels. 
  7.) Most of the guests came from european countries, with highest number of guests from Portugal.
  8.) Most common stay length is less than 4 days and generally people prefer City hotel for short stay, but for long stays, Resort Hotel is preferred.
@@ -135,47 +135,46 @@ Performed univariate analysis and made following conclusions:
 
 We tried to answer following questions
 ```
- 1.) Overall adr of City hotel is slightly higher than Resort hotel and no. of bookings of City hotel is also higher than Resort hotel. Hence, City hotel is makes more revenue.
- 2.) City hotel has slightly higher median lead time. Also median lead time is significantly higher for both hotels, this means customers generally plan their hotel   visits way early.
- 3.) Almost 30 % of City Hotel bookings got canceled.
- 4.) Both hotels have very small percentage that customer will repeat, but Resort hotel has slightly higher repeat % than City Hotel.
- 5.) TA/TO is mostly used for planning Hotel visits well ahead of time. 
- 6.) While booking via TA/TO one may have to wait a little longer to confirm booking of rooms.
- 7.) GDS channel brings higher revenue generating deals for City hotel, in contrast to that most bookings come via TA/TO. City Hotel can work to increase outreach on GDS channels to get more higher revenue generating deals.
- 8.) TA/TO has highest booking cancellation %. Therefore, a booking via TA/TO is 30% likely to get cancelled.
- 9.) Longer lead time has no affect on cancellation of bookings.
- 10.) Not getting same room as demanded is not the case of cancellation of rooms. A significant percentage of bookings are not cancelled even after getting different room as demanded.
- 11.) Not getting same room do affects the adr, people who didn't got same room have paid a little lower adr. 
- 12.) Arrivals in hotels increases at weekends and also the avg adr tends to go up as month ends. 
- 13.)Moslty bookings are done by couples(bookings have two adults.)
+ 1.) Adr of city Hotel is higher than Resort Hotel
+ 2.) Online TA is best marketing segment to attract customer(59%).
+ 3.) Not getting same room do affects the adr, people who didn't got same room have paid a little lower adr. 
+ 4.) In Resort Hotel 21% of people are not assigned the reserved room, this means in Resort Hotel there is demand of specific rooms
+ 5.) Not Assigned the same room as reserved,not only decrease the revenue but it also decrease the chances of best deals.
+ 6.) Not assigned the same room does not effect the cancellation.
+ 7.) Friday has highest number of 2 day visit,which can be weekend holidays.
+ 8.) There is slight increase in number of customer for a week,this may be because weekly plan provides good deals.
+ 9.) Moslty bookings are done by couples(bookings have two adults.)
+ 10.) Longer lead time has no affect on cancellation of bookings
 ```
 
 ## Conclusion
 
 ```
-(1) Around 60% bookings are for City hotel and 40% bookings are for Resort hotel, therefore City Hotel is busier than Resort hotel. Also the overall adr of City hotel is slightly higher than Resort hotel.
-(2) Mostly guests stay for less than 5 days in hotel and for longer stays Resort hotel is preferred.
-(3) Both hotels have significantly higher booking cancellation rates and very few guests less than 3 % return for another booking in City hotel. 5% guests return for stay in Resort hotel.
-(4) Most of the guests came from european countries, with most of guests coming from Portugal.
-(5) Guests use different channels for making bookings out of which most preferred way is TA/TO.
-(6) For hotels higher adr deals come via GDS channel, so hotels should increase their popularity on this channel.
-(7) Almost 30% of bookings via TA/TO are cancelled.
-(8) Not getting same room as reserved, longer lead time and waiting time do not affect cancellation of bookings. Although different room allotment do lowers the adr.
-(9) July- August are the most busier and profitable months for both of hotels. 
-(10) Within a month, adr gradually increases as month ends, with small sudden rise on weekends.
-(11) Couples are the most common guests for hotels, hence hotels can plan services according to couples needs to increase revenue.
-(12) More number of people in guests results in more number of special requests.
-(13) Bookings made via complementary market segment and adults have on average high no. of special request.
-(14) For customers, generally the longer stays (more than 15 days) can result in better deals in terms of low adr.
+(1) Agent 9 has highest no of booking and revenue ,but in term of Average Revenue Agent 250 and Agent 14 are the highest
+(2) Increase in total_request lead to increase in Revenue.
+(3) Most of the visitor has opted for only Morning Breakfast(BB),there are also tourist who opted for HB,SC type meal but approximately no visitor has opted for 
+    Full Board(FB) type meal
+(4) For Resort Hotel there is drastically increase increase in number for One Week ,this may be because there is better deal for a week in Resort Hotel.
+(5) People mostly stayed for upto 4 days .Highest number of days of stay is 1. For long days people mostly prefer Resort Hotel and for short days ,City Hotel.
+(6)  Most(65%) of the visitor type are couple's and after most of the visitor are Not family(25%)
+(7) August and July is the most visited month of the year.This is maybe mostly summer holidays lie in July and August.
+(8) Customer mostly arrive in Monday and Friday,The high number of visitor in Friday may be due to weekends
+(9) Almost (59%) of people belong to online TA market segment whereas Offline TA/TO has (15.9%) market segment followed by Direct(13.5%)
+(10) In term of revenue Online TA city hotel has highest revenue and also highest Average Revenue.
+(11) The Average Revenue increases from Room type A to Room type H,after that it falls drastically.
+(12) In city Hotel,11% are not Assigned the reserved room whereas in resort Hotel,21% are not Assigned the reserved room.
+     This means in Resort Hotel there are shortage of specific room types whichare high in demand
+(13) Not Assigned the same room,not only decrease the revenue but it also decrease the chances of best deals.
+(14) Switzerland(CHE),Belgium(BEL) and Spain(ESP) has highest Average Revenue but the best deals are mostly from Spain and Portugal 
 
 And many more conclusions.
 ```
 ## Challenges
 ```
-(1) There was a lot of duplicate data.
-(2) Data was present in wrong datatype format.
-(3) Choosing appropriate visualization techniques to use was difficult.
-(4) A lot of null values were there in the dataset.
+(1) A lot of the data were duplicates.
+(2) Incorrect datatype format for the data was present.
+(3) It was challenging to select the best visualization techniques.
+(4) The dataset contained a large number of null values.
 
 
 
