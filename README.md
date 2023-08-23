@@ -1,5 +1,6 @@
-# Hotel Bookings Exploratory Data Analysis
-
+# Hotel Bookings Exploratory Data Analysis:
+Google Colab Link:
+https://colab.research.google.com/drive/1FuThY37attsPbyk5cpWW__ftxzhd81ya?usp=sharing
 ## Objective
 We are provided with a hotel bookings dataset. 
 
